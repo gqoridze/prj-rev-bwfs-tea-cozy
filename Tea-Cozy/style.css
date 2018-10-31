@@ -1,0 +1,138 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  background: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  flex-grow: 1;
+}
+
+.logo img {
+  float: left;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.header nav {
+  float: right;
+}
+
+.header nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+  align-items: center;
+}
+
+.Background {
+  width: 1200px;
+  height: 700px;
+  background-position: center top;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin: 0 auto;
+}
+
+.Background h2, .Background h4{
+   background: black;
+   display: block;
+   width: 100%;
+   height: 50px;
+   margin: 0;
+}
+
+.pictures {
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.pictures h2 {
+  margin-bottom: 0px;
+}
+
+.pictures .tea-items{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.pictures img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 0px;
+}
+
+.tea-items div {
+  margin: 15px;
+}
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.locations h2 {
+  margin-bottom: 0px;
+  padding-top: 16px;
+}
+
+.location-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 100px;
+}
+
+.locations .locale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  opacity: 1;
+}
+
+.locale h3, h4 {
+  margin: 10px auto;
+}
+
+.footer {
+  text-align: center;
+  height: 200px;
+}
+
+.footer h2, h5, p {
+  margin: 10px auto;
+}
+
+#bottom {
+  text-align: left;
+}
